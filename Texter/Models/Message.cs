@@ -14,6 +14,7 @@ namespace Texter.Models
         public string From { get; set; }
         public string Body { get; set; }
         public string Status { get; set; }
+        public string Price { get; set; }
 
         public static List<Message> GetMessages()
         {
